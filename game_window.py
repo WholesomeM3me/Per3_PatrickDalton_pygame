@@ -8,5 +8,5 @@ while True:
 	event = pygame.event.poll()
 	if event.type == pygame.QUIT:
 		break
-	screen.fill((0,0,0))
+	screen.fill((250, 70, 0))
 	pygame.display.flip()
