@@ -1,6 +1,6 @@
 from gpiozero import LED
 from time import sleep
-led = LED(17)
+led = LED(19)
 
 def LED_blink_time(led_on, led_off):
     """Defines length of blinks and time betweem blinks"""
